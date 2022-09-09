@@ -6,6 +6,7 @@
   grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
   justify-items: center;
   grid-gap: 30px;
+  padding: 20px 0 0 0;
 }
 
 .social-link {
@@ -30,6 +31,10 @@
 
 .social-text {
   font-size: 16px;
+}
+
+object {
+  pointer-events: none;
 }
 
 @media (max-width: 700px) {

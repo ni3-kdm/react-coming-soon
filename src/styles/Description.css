@@ -1,14 +1,22 @@
 .description {
   overflow: hidden;
-  grid-area: description;
-  display: grid;
-  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-weight: 500;
-  max-width: 700px;
-  grid-template-columns: 1fr;
+  max-width: 800px;
 }
 
-.description-text {
-  grid-column: 1 / -1;
-  grid-row: 1 / -1;
+.description .text {
+  font-size: 85px;
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+.description .slogan {
+  font-size: 35px;
+  margin: 0;
+  padding: 25px 0 0 0;
 }
