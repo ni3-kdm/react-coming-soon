@@ -4,6 +4,7 @@
   grid-template-columns: repeat(4, minmax(50px, 150px));
   grid-gap: 10px;
   justify-content: center;
+  color: yellow;
 }
 
 .countdown div:not(:last-child) {

@@ -19,11 +19,12 @@ html {
 }
 
 body {
-  background-image: url(../images/floating-cogs.svg);
-  background-color: var(--darkGrey);
-  min-height: calc(100vh - 100px);
-  margin: 10px;
-  background-attachment: fixed;
+  background-image: url(../images/wedding-holding-hand.jpeg);
+  font-family: 'Tiro Devanagari Marathi', cursive;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-color: black;
+  background-size: cover;
 }
 
 *,
